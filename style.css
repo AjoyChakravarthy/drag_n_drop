@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #dbdbdb80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+#left, #right{
+    width: 500px;
+    min-height: 500px;
+    background:#ffffff;
+}
+#left{
+    border-radius: 7px 0 0 7px;
+}
+#right{
+    border-radius: 0 7px 7px 0;
+}
+
+.center_img img[src*="arrow_icon.png"] {
+    width: 50px;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translateX(-50%);
+    opacity: .5;
+}
+.list{
+    background:#d1d4d61f ;
+    height: 50px;
+    margin: 30px;
+    color:rgb(106, 105, 105);
+    display: flex;
+    align-items: center;
+    border: 1px solid #e2e5e7;
+    border-radius: 5px;
+    cursor: grab;
+}
+.list:hover{
+    background-color: #e2e5e7;
+}
+.list img{
+    width: 20px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
